@@ -20,7 +20,7 @@ const Banner = (props) => {
 
             return request
         } fetchData();
-    }, [requests.fetchNetflixOriginals])
+    }, [])
 
 
     function truncate (str, n) {
@@ -55,5 +55,6 @@ const Banner = (props) => {
         </header>
     )
 }
+
 
 export default Banner
